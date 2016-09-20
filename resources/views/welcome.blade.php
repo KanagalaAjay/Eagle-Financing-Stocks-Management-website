@@ -77,7 +77,8 @@
         <div class="container">
             <div class="content">
                 <div class="title">Eagle Financial Services</div>
-                 <h1><a href="http://localhost/efs52/public/customers">Click here to proceed</a></h1>
+				
+                 <h1><a href="{{ action('CustomerController@index') }}">Click here to proceed</a></h1>
             </div>
         </div>
         
